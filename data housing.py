@@ -11,7 +11,7 @@ import pandas
 from pandas import DataFrame
 import matplotlib.pyplot as plt
 
-data = pandas.read_csv('/content/Housing.csv')
+data = pandas.read_csv('Housing.csv')
 
 data.describe()
 
